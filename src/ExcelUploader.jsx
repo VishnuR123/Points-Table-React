@@ -10,7 +10,7 @@ function ExcelUploader() {
       const fetchData = async () => {
         try {
           // Fetch the file from the public folder
-          const response = await fetch('/Oct11Ind.xlsx');
+          const response = await fetch('/Oct12.xlsx');
           const blob = await response.blob();
   
           // Create a FileReader object to read the blob
