@@ -1,0 +1,59 @@
+/* Team checker css */
+
+.team-container-2{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid rgb(255, 7, 7);  */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.person-box{
+  width:auto;
+  height: auto;
+  /* border: 1px solid white; */
+  /* text-align: center; */
+}
+.highlighted-text{
+  background-color: white;
+  color: black;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style-type: none;
+}
+
+.AFG1{
+    background-color:#ad180b;
+  }
+  .AUS1{
+    background-color:#ffd500;
+  }
+  .BAN1{
+    background-color:#205a34;
+  }
+  .ENG1{
+    background-color:#c51129;
+  }
+  .IND1{
+    background-color:#0983e7;
+  }
+  .NED1{
+    background-color:#d6340c;
+  }
+  .NZ1{
+    background-color:rgba(0, 0, 0, 0.534);
+  }
+  .PAK1{
+    background-color:#01411C;
+  }
+  .SA1{
+    background-color:#eba604;
+  }
+  .SL1{
+    background-color:#15295e;
+  }

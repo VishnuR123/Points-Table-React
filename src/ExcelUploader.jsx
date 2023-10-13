@@ -2,6 +2,7 @@ import React, { useState,useEffect } from 'react';
 
 import { utils, read } from 'xlsx';
 import PointsTable from './PointsTable';
+import Test from './Test';
 
 function ExcelUploader() {
 
@@ -26,9 +27,17 @@ function ExcelUploader() {
   
             // Convert sheet data to an array of objects
             const sheetData =utils.sheet_to_json(sheet);
-  
-            // Update the state with the sheet data
-            setData(sheetData);
+
+            // Inside the map function, add a console.log to inspect each row
+            const newData = sheetData.map((row) => {
+                const pointsValue = parseInt(row.Field1.match(/\d+/)[0]);
+                const countryValue = (row.dftransfer_plyrskill.substring(0, 3));
+                const match = row.dftransfer_plyrskill.match(/- ([A-Z]+)/);
+                const extractedString = match ? match[1] : null;
+                return { ...row, Points: pointsValue, Country: countryValue, Role: extractedString };
+            });
+
+            setData(newData);
             
           };
   
@@ -43,23 +52,29 @@ function ExcelUploader() {
     
     return (
       <div>
+        <br />
         <PointsTable data={data} />
         <br /><br />
+        <Test data={data}/>
+        <br />
         <h1>All Player Data</h1><br />
+
         <table className='master'>
           <thead>
             <tr>
               <th>Players</th>
-              <th>Details</th>
               <th>Points</th>
+              <th>Country</th>
+              <th>Role</th>
             </tr>
           </thead>
           <tbody>
             {data.map((item, index) => (
-              <tr key={index}>
+              <tr key={index} className={`${item.Country}`}>
                 <td>{item.Title}</td>
-                <td>{item.Details}</td>
                 <td>{item.Points}</td>
+                <td>{item.Country}</td>
+                <td>{item.Role}</td>
               </tr>
             ))}
           </tbody>

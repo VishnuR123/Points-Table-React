@@ -125,7 +125,6 @@ export default function PointsTable(props){
           </form>
             {isSubmitted && (
               <div>
-              {/* <h2>{inputText}</h2> */}
               <table className='ind'>
                 <thead>                  
                   <tr>

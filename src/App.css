@@ -4,13 +4,13 @@
   padding: 0 32px;
   text-align: center;
 }
+/* Points table flex */
 .container{
   height: 350px;
   display: flex;
   flex-direction:column;
   flex-wrap:wrap; 
   margin-top: 20px;
-
 }
 .divider {
   width: 2px; /* Width of the vertical line */
@@ -33,11 +33,18 @@ form{
   padding: 20px;
   box-sizing: border-box;
 }
-.ind{
-  width: 100%;
-  margin: 0;
-  /* margin-left:120px ; */
+/* .box-1{
+  background-color: #36256E;
 }
+.box-2{
+  background-color: #E73493;
+} */
+/* All Player Data */
+.master{
+  width: 70%;
+  margin: 0 auto;
+}
+/* individual team searcher */
 input{
   width: 180px;
   height: 50px;
@@ -55,13 +62,15 @@ input{
   transition: border-color 0.15s;
   color: black;
 }
+.ind{
+  width: 100%;
+  margin: 0;
+  /* margin-left:120px ; */
+}
+
 table{
   width: 50%;
   margin-left:20%;
-}
-.master{
-  width: 70%;
-  margin: 0 auto;
 }
 th {
   text-align: left;
@@ -73,4 +82,37 @@ th {
 tr:hover {
   background-color: #535bf2;
 }
+.AFG:hover{
+  background-color:#ad180b;
+}
+.AUS:hover{
+  background-color:#ffd500;
+}
+.BAN:hover{
+  background-color:#205a34;
+  
+}
+.ENG:hover{
+  background-color:#fe1448;
+}
+.IND:hover{
+  background-color:#0983e7;
+}
+.NED:hover{
+  background-color:#d6340c;
+}
+.NZ:hover{
+  background-color:rgba(0, 0, 0, 0.534);
+}
+.PAK:hover{
+  background-color:#01411C;
+}
+.SA:hover{
+  background-color:#eba604;
+}
+.SL:hover{
+  background-color:#15295e;
+}
+
+
 
