@@ -54,8 +54,7 @@ function ExcelUploader() {
       <div>
         <br />
         <PointsTable data={data} />
-        <br /><br />
-        <Test data={data}/>
+        {/* <Test data={data}/> */}
         <br />
         <h1>All Player Data</h1><br />
 
