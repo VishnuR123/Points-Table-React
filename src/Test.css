@@ -1,59 +1,96 @@
 /* Team checker css */
 
-.team-container-2{
+.card-container{
     width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 40px;
+    border: 1px solid #242020; 
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.team-container{
+    width: 70%;
     height: auto;
+    margin: 30px auto;
     /* border: 1px solid rgb(255, 7, 7);  */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.person-box{
-  width:auto;
+.Card{
+  /* flex-basis: calc(20% -2px); */
+  width: 130px;
+  box-sizing: border-box; 
   height: auto;
-  /* border: 1px solid white; */
-  /* text-align: center; */
+  border-radius: 5%;
+  margin: 2px;
+  background-color:#242424;
+  text-align: center;
+}
+.name{
+  padding: auto;
+  margin-top: 7px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.players{
+  font-weight: 400;
+  font-size: smaller;
+  padding: 0;
+}
+.card-tr{
+  padding: 0;
+  margin: 0;
+}
+.card-table{
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: center;
+  
 }
 .highlighted-text{
   background-color: white;
   color: black;
 }
-ul{
-  margin: 0;
-  padding: 0;
+.normal-button{
+  max-width: 150px;border-style: none;
+  
 }
-li{
-  list-style-type: none;
-}
-
-.AFG1{
+  .AFG1{
     background-color:#ad180b;
+    max-width: 150px;
+    border-style: none;
   }
   .AUS1{
-    background-color:#ffd500;
+    background-color:#ffd500;  max-width: 150px;border-style: none;
   }
   .BAN1{
-    background-color:#205a34;
+    background-color:#205a34;  max-width: 150px;border-style: none;
   }
   .ENG1{
-    background-color:#c51129;
+    background-color:#c51129;  max-width: 150px;border-style: none;
   }
   .IND1{
-    background-color:#0983e7;
+    background-color:#0983e7;  max-width: 150px;border-style: none;
   }
   .NED1{
-    background-color:#d6340c;
+    background-color:#d6340c;  max-width: 150px;border-style: none;
   }
   .NZ1{
-    background-color:rgba(0, 0, 0, 0.534);
+    background-color:rgba(0, 0, 0, 0.534);  max-width: 150px;border-style: none;
   }
   .PAK1{
-    background-color:#01411C;
+    background-color:#01411C;  max-width: 150px;border-style: none;
   }
   .SA1{
-    background-color:#eba604;
+    background-color:#eba604;  max-width: 150px;border-style: none;
   }
   .SL1{
-    background-color:#15295e;
+    background-color:#15295e;  max-width: 150px;border-style: none;
   }

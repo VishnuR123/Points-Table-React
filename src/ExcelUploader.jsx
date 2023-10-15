@@ -3,6 +3,7 @@ import React, { useState,useEffect } from 'react';
 import { utils, read } from 'xlsx';
 import PointsTable from './PointsTable';
 import Test from './Test';
+import Team from './Team';
 
 function ExcelUploader() {
 
@@ -52,8 +53,11 @@ function ExcelUploader() {
     
     return (
       <div>
-        <br />
+     
         <PointsTable data={data} />
+        <br />
+        <h1>Individual Teams</h1>
+        <Team data={data} />
         {/* <Test data={data}/> */}
         <br />
         <h1>All Player Data</h1><br />

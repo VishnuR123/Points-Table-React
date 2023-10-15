@@ -24,6 +24,8 @@ form{
   align-self: center;
 }
 .main-con{
+  max-width: 80%;
+  margin:0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -65,7 +67,8 @@ input{
 .ind{
   width: 100%;
   margin: 0;
-  /* margin-left:120px ; */
+  margin-left:20px ;
+  margin-top: 20px;
 }
 
 table{
