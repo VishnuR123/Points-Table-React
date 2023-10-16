@@ -5,7 +5,7 @@ function App() {
   return (
     <>
     <div>
-      <h1>Points Table</h1><br />
+      <h1>Points Table</h1>
       <ExcelUploader />
     </div>
 

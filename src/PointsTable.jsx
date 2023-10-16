@@ -105,7 +105,7 @@ export default function PointsTable(props){
     return (
         <div className='main-con'>
           <div className='box'>
-            <button  onClick={() => sorter()}>View Points</button>
+            <button onClick={() => sorter()}>View Points</button>
             <div className="container">
               {peopleData.map((person, index) => (
                 <div key={index}>

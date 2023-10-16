@@ -53,12 +53,10 @@ function ExcelUploader() {
     
     return (
       <div>
-     
         <PointsTable data={data} />
         <br />
         <h1>Individual Teams</h1>
         <Team data={data} />
-        {/* <Test data={data}/> */}
         <br />
         <h1>All Player Data</h1><br />
 
