@@ -2,7 +2,6 @@ import React, { useState,useEffect } from 'react';
 
 import { utils, read } from 'xlsx';
 import PointsTable from './PointsTable';
-import Test from './Test';
 import Team from './Team';
 
 function ExcelUploader() {
