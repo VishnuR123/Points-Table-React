@@ -63,34 +63,57 @@
   
 }
   .AFG1{
-    background-color:#ad180b;
+    background-color:#0854cc;
+    color:#d41d10;
     max-width: 150px;
     border-style: none;
   }
   .AUS1{
-    background-color:#ffd500;  max-width: 150px;border-style: none;
+    color:#034f23;
+    background-color: #f5ee23;
+    max-width: 150px;
+    border-style: none;
   }
   .BAN1{
-    background-color:#205a34;  max-width: 150px;border-style: none;
+    background-color:#013f2f;  
+    color: #c90d0d;
+    max-width: 150px;
+    border-style: none;
   }
   .ENG1{
-    background-color:#c51129;  max-width: 150px;border-style: none;
+    background-color:#031a44; 
+    color: #128ece;
+    max-width: 150px;
+    border-style: none;
   }
   .IND1{
-    background-color:#0983e7;  max-width: 150px;border-style: none;
+    background-color:#0983e7;  
+    max-width: 150px;
+    border-style: none;
   }
   .NED1{
-    background-color:#d6340c;  max-width: 150px;border-style: none;
+    background-color:#fa1707;
+    max-width: 150px;
+    border-style: none;
   }
   .NZ1{
-    background-color:rgba(0, 0, 0, 0.534);  max-width: 150px;border-style: none;
+    background-color:rgba(0, 0, 0, 0.534);  
+    max-width: 150px;
+    border-style: none;
   }
   .PAK1{
-    background-color:#01411C;  max-width: 150px;border-style: none;
+    background-color:#0f2c2e;
+    color: #59bb81;
+    max-width: 150px;border-style: none;
   }
   .SA1{
-    background-color:#eba604;  max-width: 150px;border-style: none;
+    background-color:#05462b;
+    color: #fab600;
+    max-width: 150px;
+    border-style: none;
   }
   .SL1{
-    background-color:#15295e;  max-width: 150px;border-style: none;
+    background-color:#0b2772;
+    color: #fab600;
+    max-width: 150px;border-style: none;
   }

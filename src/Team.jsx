@@ -37,7 +37,7 @@ function Team(props){
     }
 
     return(
-        <>
+        <div className='team'>
             <div className='team-container'>
             {['AFG','AUS','BAN','ENG','IND','NED','NZ','PAK','SA','SL'].map((country) => (
                 <button
@@ -54,7 +54,7 @@ function Team(props){
                     <Card key={person.personName} personName={person.personName} players={person.players} selectedCountries={selectedCountries} data={props.data}/>
                 ))}
             </div>
-        </>
+        </div>
       );
 }
 
