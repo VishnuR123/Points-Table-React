@@ -93,7 +93,7 @@ export default function PointsTable(props){
           temppoints.push(playerEntry.Points);
           console.log(playerEntry.Title);
           console.log(playerEntry.Points);
-          if(i===15)break;
+          if(i===16)break;
         }
       }
       setPlayerResults(tempplayers);
